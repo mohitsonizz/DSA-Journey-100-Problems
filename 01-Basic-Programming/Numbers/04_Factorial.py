@@ -8,3 +8,11 @@ def get_factorial(n):
     for i in range(2, n + 1):
         num *= i
     return num
+
+'''   fast method 
+import math
+
+n = 5
+result = math.factorial(n)
+print(f"The factorial of {n} is {result}")
+'''
